@@ -53,15 +53,15 @@ export const Footer: React.FC<{
 
                     <div className="mx-auto flex items-center mt-20 mb-5 border-t border-grey pt-3 justify-between items-center">
                         <div className="flex items-center">
-                            <img src={`${CrystallizeLogo}`} alt="Crystallize logo" width="38" height="31" />
+                           
                             <p>
                                 Powered by{' '}
                                 <a href="https://crystallize.com" className="underline">
-                                    Crystallize
+                                    Neuractory
                                 </a>
                             </p>
                         </div>
-                        <p>{footer.copyright}</p>
+                        
                     </div>
                 </div>
                 {footer.promotions.cards.length > 0 && (
